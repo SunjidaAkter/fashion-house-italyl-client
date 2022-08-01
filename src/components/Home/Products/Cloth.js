@@ -18,11 +18,11 @@ const Cloth = () => {
           <div key={product.id} className="card">
             <div className="imgBx">
 
-              
+
               <img className="hover-img" src={product.img2} alt="" />
 
 
-              <img onClick={() => handleNavigate(product.id)} src={product.img1} alt="" />
+              <img className='main-img' onClick={() => handleNavigate(product.id)} src={product.img1} alt="" />
 
               <div className="action">
                 <ul>
